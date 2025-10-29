@@ -1,0 +1,225 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Seoul Pet Rescue - Compassionate Care for Animals in Need" description="Help us bridge hearts across borders by providing compassionate care for animals in need in Seoul and beyond.">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#4F772D]/90 to-[#3a5a20]/90 z-0"></div>
+    <div class="absolute inset-0 z-0 opacity-20">
+      <div class="bg-[url('/images/hero-bg.jpg')] bg-cover bg-center w-full h-full"></div>
+    </div>
+    <div class="container mx-auto px-4 py-28 md:py-36 relative z-10">
+      <div class="max-w-3xl">
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+          Seoul Pet Rescue
+        </h1>
+        <p class="text-xl md:text-2xl text-white/90 mb-8 font-light">
+          Compassionate care for animals in need, bridging hearts across borders
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#mission" class="bg-[#D6C563] hover:bg-[#c2b252] text-[#4F772D] font-semibold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 text-center">
+            Our Mission
+          </a>
+          <a href="/get-involved" class="bg-transparent border-2 border-white text-white hover:bg-white/10 font-semibold py-3 px-8 rounded-full transition-all duration-300 text-center">
+            Get Involved
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Welcome Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#4F772D] mb-6">Welcome to Seoul Pet Rescue</h2>
+        <div class="h-1 w-24 bg-[#D6C563] mx-auto mb-8"></div>
+        <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+          At Seoul Pet Rescue, we believe every animal deserves a loving home and a second chance at life. 
+          Our dedicated team works tirelessly to rescue, rehabilitate, and rehome abandoned and stray animals 
+          throughout the Seoul metropolitan area.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div class="bg-[#f8f7f3] p-8 rounded-xl border border-[#e8e4d4] shadow-sm hover:shadow-md transition-shadow">
+            <div class="text-5xl text-[#4F772D] mb-4">🐾</div>
+            <h3 class="text-xl font-semibold text-[#4F772D] mb-3">Rescue</h3>
+            <p class="text-gray-600">Emergency response to reports of abandoned or injured animals</p>
+          </div>
+          <div class="bg-[#f8f7f3] p-8 rounded-xl border border-[#e8e4d4] shadow-sm hover:shadow-md transition-shadow">
+            <div class="text-5xl text-[#4F772D] mb-4">💚</div>
+            <h3 class="text-xl font-semibold text-[#4F772D] mb-3">Rehabilitate</h3>
+            <p class="text-gray-600">Collaboration with local veterinarians and animal hospitals</p>
+          </div>
+          <div class="bg-[#f8f7f3] p-8 rounded-xl border border-[#e8e4d4] shadow-sm hover:shadow-md transition-shadow">
+            <div class="text-5xl text-[#4F772D] mb-4">🏡</div>
+            <h3 class="text-xl font-semibold text-[#4F772D] mb-3">Rehome</h3>
+            <p class="text-gray-600">Temporary foster care while finding forever homes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="py-20 bg-[#f0f4eb]">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col lg:flex-row items-center gap-12">
+        <div class="lg:w-1/2">
+          <div class="relative">
+            <div class="bg-[#4F772D] w-full h-64 md:h-96 rounded-2xl overflow-hidden shadow-xl">
+              <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
+            </div>
+            <div class="absolute -bottom-6 -right-6 bg-[#D6C563] w-32 h-32 rounded-2xl shadow-lg z-0"></div>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#4F772D] mb-6">Our Mission</h2>
+          <div class="h-1 w-20 bg-[#D6C563] mb-8"></div>
+          <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            We are committed to creating a community where every animal receives the care and 
+            compassion they deserve. Our mission extends beyond rescue operations to education 
+            and advocacy for animal welfare.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <div class="bg-[#4F772D] rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span class="text-gray-700"><strong class="text-[#4F772D]">Rescuing</strong> animals in immediate danger or distress</span>
+            </li>
+            <li class="flex items-start">
+              <div class="bg-[#4F772D] rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span class="text-gray-700"><strong class="text-[#4F772D]">Rehabilitating</strong> their physical and emotional well-being</span>
+            </li>
+            <li class="flex items-start">
+              <div class="bg-[#4F772D] rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span class="text-gray-700"><strong class="text-[#4F772D]">Rehoming</strong> them with loving families</span>
+            </li>
+            <li class="flex items-start">
+              <div class="bg-[#4F772D] rounded-full p-2 mr-4 mt-1">
+                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+              </div>
+              <span class="text-gray-700"><strong class="text-[#4F772D]">Educating</strong> the community about responsible pet ownership</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How We Help Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#4F772D] mb-4">How We Help</h2>
+        <div class="h-1 w-24 bg-[#D6C563] mx-auto"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="mb-8">
+            <h3 class="text-2xl font-bold text-[#4F772D] mb-4 flex items-center">
+              <span class="bg-[#D6C563] text-[#4F772D] w-10 h-10 rounded-full flex items-center justify-center mr-3">救</span>
+              救助活动 (Rescue Operations)
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Emergency response to reports of abandoned or injured animals</span>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Collaboration with local veterinarians and animal hospitals</span>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Temporary foster care while we find forever homes</span>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Transportation of animals to safety when needed</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-2xl font-bold text-[#4F772D] mb-4 flex items-center">
+              <span class="bg-[#D6C563] text-[#4F772D] w-10 h-10 rounded-full flex items-center justify-center mr-3">❤</span>
+              Community Programs
+            </h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Spay/neuter initiatives to reduce overpopulation</span>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Educational workshops for pet owners</span>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-[#4F772D]/10 rounded-full p-1 mr-3 mt-1">
+                  <div class="w-2 h-2 bg-[#4F772D] rounded-full"></div>
+                </div>
+                <span class="text-gray-700">Partnerships with Seoul animal shelters</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64"></div>
+          <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-80 mt-8"></div>
+          <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-80"></div>
+          <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64 mt-8"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-[#4F772D] to-[#3a5a20]">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Our Mission</h2>
+      <p class="text-xl text-white/90 max-w-2xl mx-auto mb-10">
+        Every contribution helps us save more lives. Whether you volunteer, donate, or adopt, 
+        you're making a difference in an animal's life.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/adopt" class="bg-[#D6C563] hover:bg-[#c2b252] text-[#4F772D] font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 text-center">
+          Adopt a Pet
+        </a>
+        <a href="/donate" class="bg-white/10 hover:bg-white/20 text-white border border-white font-semibold py-4 px-8 rounded-full transition-all duration-300 text-center">
+          Make a Donation
+        </a>
+        <a href="/volunteer" class="bg-white/10 hover:bg-white/20 text-white border border-white font-semibold py-4 px-8 rounded-full transition-all duration-300 text-center">
+          Volunteer
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
